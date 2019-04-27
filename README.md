@@ -1,7 +1,8 @@
 # aplikasi-database
-Ini merupakan bahan latihan praktikum pembuatan sistem databases sederhana pada mata kuliah Databases pada Akademi Komunitas Mukomuko. Silahkan dikembangkan lebih lanjut sebagai sarana pembelajaran.
+Ini merupakan bahan latihan praktikum pembuatan sistem databases sederhana pada mata kuliah Databases pada Akademi Komunitas Mukomuko. 
 - Php version = 7
 - Database = Mysql
+- Bootstrap v.3.7
 # Fitur
 - Tambah Guru
 - Edit Guru
