@@ -8,6 +8,8 @@ Ini merupakan bahan latihan praktikum pembuatan sistem databases sederhana pada 
 - Edit Guru
 - Update Guru
 - Alert : Data Berhasil diupdate, Data gagal diupdate, Data berhasil di hapus
+- Form login untuk belajar session
+
 # Screenshoot
 - <b>Tampilan Dashboar</b>
 <img src="https://raw.githubusercontent.com/dedyods/aplikasi-database/master/screenshoot/dashboard.png">
