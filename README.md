@@ -1,5 +1,4 @@
 # aplikasi-database
-- Mata Kuliah Database
 - Php version = 7
 - Database = Mysql
 # Fitur
@@ -7,6 +6,7 @@
 - Edit Guru
 - Update Guru
 # Screenshoot
-https://raw.githubusercontent.com/dedyods/aplikasi-database/master/screenshoot/dashboard.png
+
+<img src="https://raw.githubusercontent.com/dedyods/aplikasi-database/master/screenshoot/dashboard.png">
 
 
