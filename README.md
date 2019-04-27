@@ -14,6 +14,11 @@ Ini merupakan bahan latihan praktikum pembuatan sistem databases sederhana pada 
 - <b>Tampilan Data Guru</b>
 <img src="https://raw.githubusercontent.com/dedyods/aplikasi-database/master/screenshoot/tampildata.png">
 
+- <b>Tampilan Edit Guru</b>
+<img src="https://raw.githubusercontent.com/dedyods/aplikasi-database/master/screenshoot/edit.PNG">
+
+
+
 
 
 
