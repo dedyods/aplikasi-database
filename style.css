@@ -1,0 +1,38 @@
+.latarbelakang{
+    background-image: url('css/img/black.jpg');
+  
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -180px;
+ 
+    
+}
+
+.tengah{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+    font-family: sans-serif;
+  
+  
+}
+.tulisan{
+ font-family: 'Viga', sans-serif;
+}
+
+.judul{
+ font-family: 'Viga', sans-serif;
+ color: white;
+    /* margin-top: 10px; */
+    font-weight: 200;
+    text-shadow:1px 1px 1px rgba(0, 0, 0, 0.9);
+    font-size: 70px;
+    margin-bottom: 30px;
+}
