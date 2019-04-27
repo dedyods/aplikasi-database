@@ -1,10 +1,7 @@
 <?php include 'header.php' ?>
 <?php include 'config/koneksi.php'; 
-$query_guru = mysqli_query($conn,"SELECT * FROM tb_guru");
-$total_guru = mysqli_num_rows($query_guru);
-
-
-
+$data = mysqli_query($conn,"SELECT * FROM tb_guru");
+$total_guru = mysqli_num_rows($data);
 ?>
 
 
@@ -84,5 +81,4 @@ $total_guru = mysqli_num_rows($query_guru);
 
 		</div>
 	</div>
-
 <?php include 'footer.php' ?>

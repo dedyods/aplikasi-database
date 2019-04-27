@@ -13,14 +13,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body class="latarbelakang">
-
-<?php 
-	session_start();
-	if($_SESSION['status']!="login"){
-		header("location:form_login.php?pesan=belum_login");
-	}
-	?>
-
+	
     <!-- menu navigasi -->
 	<nav class="navbar navbar-inverse" style="border-radius: 0px">
 		<div class="container-fluid">			
@@ -56,4 +49,85 @@
 		</div>
 	</nav>
 
-	<!-- akhir menu navigasi -->
+	
+<!-- Menu Form Login -->
+		
+<div class="container">
+	<div class="col-md-8 col-xs-offset-2">
+		<div class="panel panel-primary tulisan">
+					  <div class="panel-heading">FORM LOGIN
+
+											</div>
+											<!-- Alert Cek Login -->
+
+	<?php
+if (isset($_GET['pesan']))
+{
+        if($_GET['pesan']=="belum_login"){
+   
+    echo"	<div class='alert alert-success text-center'>
+		<b>Anda belum Melakukan Proses Login</b>	 
+        <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
+    <span aria-hidden='true'>&times;</span>
+  </button>	
+	</div>";
+    }
+elseif($_GET['pesan']=="gagal"){
+     echo"	<div class='alert alert-danger text-center'>
+		<b>Username dan password anda Salah</b>	 
+        <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
+    <span aria-hidden='true'>&times;</span>
+  </button>	
+	</div>";
+}
+    else {
+        echo "<div class='alert alert-success text-center'>
+		<b>Anda Berhasil Logout</b>	
+        <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
+    <span aria-hidden='true'>&times;</span>
+  </button>	
+	</div>";
+    }
+} 
+?>
+
+<div class="panel-body">
+
+
+<form action="proses_login.php" method="post">
+
+<div class="form-group">
+<i class="glyphicon glyphicon-user">&nbsp</i><label for="username">Username : </label>
+<input type="text" name="username" id="username" class="form-control" placeholder="Username">
+</div>
+
+<div class="form-group">
+<i class="glyphicon glyphicon-wrench">&nbsp</i><label for="password">Password : </label>
+<input type="password" name="password" id="password" class="form-control" placeholder="password">
+</div>
+
+
+
+<div class="panel">
+<button type="submit" name="submit" class="btn btn-info">
+<i class="glyphicon glyphicon-floppy-disk">	Login </i>
+</button>
+</div>
+</form>
+
+</div>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="navbar navbar-inverse navbar-fixed-bottom">
+        <div class="col-centered">
+        <p align="center" style="color:#fff; padding-top:10px;">Sistem Data Siswa Copyright Akom 2019</p>
+    </div>
+    </div>
+    
+  </div>
+    
+  </div>
+</body>
+</html>
